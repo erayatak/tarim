@@ -1,0 +1,77 @@
+.ana-baslik {
+    font-weight: bold;
+    color: rgb(4, 226, 56);
+    font-family: Arial, sans-serif;
+}
+
+p {
+    font-family: Arial, sans-serif;
+}
+
+.ust-kisim {
+    text-align: center;
+    margin-top: 50px;
+    color: rgb(48, 48, 48);
+}
+
+    /* Menü alanı */
+    .ana-menu {
+        margin-top: 20px;
+    }
+
+    .ana-menu ul {
+        display: flex;
+        justify-content: center;
+        gap: 30px;
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+
+
+    .ana-menu a {
+        text-decoration: none;
+        color: rgb(13, 199, 13);
+        font-family: Arial, sans-serif;
+        font-weight: bold;
+    }
+
+
+        .ana-menu a:hover {
+            color: rgb(215, 226, 4);
+        }
+
+            .ust-menu {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                padding: 0px 40px 0px 40px;
+            }
+                
+            .ust-menu-button {
+            display: flex;
+            gap: 10px;
+        }
+
+        .ust-menu-button a {
+            display: inline-block;
+            background-color: rgb(4, 226, 56);
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-family: Arial, sans-serif;
+            font-weight: bold;
+        }
+
+        .ust-menu-button a:hover {
+            background-color: rgb(215, 226, 4);
+        }
+
+        .logo-text a{
+            text-decoration: none;
+            color: rgb(0, 0, 0);
+            font-family: Arial, sans-serif;
+            font-weight: bold;
+        }
