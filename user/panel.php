@@ -1,6 +1,6 @@
 <?php
 require_once __DIR__ . '/../php/auth.php';
-girisKontrol(); // Giriş yapmamışsa buraya giremez
+kullaniciKontrol(); // Giriş yapmamışsa buraya giremez
 
 $sayfaBasligi = 'Kullanıcı Paneli';
 require_once __DIR__ . '/../includes/header.php';

@@ -19,3 +19,11 @@ function yoneticiKontrol() {
         exit;
     }
 }
+
+function kullaniciKontrol(){
+    girisKontrol();
+  if ($_SESSION['rol'] !== 'kullanici') {
+        header('Location: /admin/panel.php');
+        exit;
+}
+}
