@@ -3,7 +3,7 @@ if (session_status() === PHP_SESSION_NONE) {
     session_start();
 }
 
-// Giriş yapmamışsa giriş sayfasına at
+// Giriş yapmamışsa kullanıcıyı giriş sayfasına at
 function girisKontrol() {
     if (!isset($_SESSION['kullanici_id'])) {
         header('Location: /pages/giris.php');
